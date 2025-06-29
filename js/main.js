@@ -10,8 +10,8 @@ const swiper = new Swiper('.swiper', {
 
 
 const swiperTop = new Swiper(".top__slider", {
-      slidesPerView: 3,
-      spaceBetween: 30,
+      slidesPerView: 5,
+      spaceBetween: 20,
       freeMode: true,
       navigation: {
         nextEl: '.swiper-button-next',
