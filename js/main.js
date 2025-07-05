@@ -10,9 +10,10 @@ const swiper = new Swiper('.swiper', {
 
 
 const swiperTop = new Swiper(".top__slider", {
-      slidesPerView: 5,
+      slidesPerView: 4.99,
       spaceBetween: 20,
       freeMode: true,
+      loop: true,
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
