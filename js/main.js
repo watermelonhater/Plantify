@@ -8,6 +8,9 @@
 //   },
 // });
 
+var wow = new WOW();
+wow.init();
+
 
 const swiperTop = new Swiper(".top__slider", {
   slidesPerView: 4.99,
@@ -50,7 +53,7 @@ const swiperTop = new Swiper(".top__slider", {
     },
   }
 });
-swiperTop.start()
+// swiperTop.start()
 
 const burgerButton = document.querySelector('.menu__burger')
 const menu = document.querySelector('.menu')
